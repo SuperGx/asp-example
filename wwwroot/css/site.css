@@ -1,0 +1,43 @@
+﻿body {
+	font-family : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+input, textarea {
+	font-size: 18px;
+	width: 200px;
+}
+
+input[type=submit]{
+	width:auto;
+}
+
+label{
+	width: 500px;
+	font-size: 20px;
+}
+
+#theForm {
+	background-color : lavender;
+	border-radius: 2px;
+}
+
+#theForm input[type=submit]{
+	background-color : red;
+	color : white;
+}
+
+.product {
+	border: 1px solid grey;
+	display: inline-block;
+	padding: 5px 1px;
+	margin: 3px 0px;
+	width: 1000px;
+	background-color: lavender;
+	border-radius: 10px;
+	
+}
+	.product img {
+		margin: 3px;
+		float: left;
+		border: 1px solid black;
+	}
