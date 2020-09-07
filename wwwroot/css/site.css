@@ -36,8 +36,43 @@ label{
 	border-radius: 10px;
 	
 }
-	.product img {
+.product img {
 		margin: 3px;
 		float: left;
 		border: 1px solid black;
+}
+
+#login{
+	cursor: pointer;
+}
+
+.popup-form{
+	padding: 5px;
+	border: 2px black inset;
+	display: inline-block;
+}
+
+.popup-form input{
+	width: 200px;
+}
+
+.popup-form label{
+	width: 150px;
+	display: inline-block;
+}
+
+.popup-form input[type=checkbox], .popup-form input[type=submit]{
+	width: auto;
+}
+
+menu>ul>li{
+	display: inline;
+}
+
+menu>ul>li::after{
+	content : ' |';
+}
+
+	menu > ul > li:last-of-type::after {
+		content: " ";
 	}

@@ -1,0 +1,36 @@
+﻿@model Exx1.ViewModel.ContactViewModel
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewBag.Title = "Contact";
+}
+@section Scripts{
+    <script src="~/node_modules/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+
+}
+<form method="post">
+    <div asp-validation-summary="ModelOnly"></div>
+    <label asp-for="Name">Your name: </label>
+    <br />
+    <input asp-for="Name" />
+    <span asp-validation-for="Name"></span>
+    <br />
+    <label input asp-for="Email">Email</label>
+    <br />
+    <input type="email" input asp-for="Email" />
+    <span asp-validation-for="Email"></span>
+    <br />
+    <label input asp-for="Subject">Subject</label>
+    <br />
+    <input input asp-for="Subject" />
+    <span asp-validation-for="Subject"></span>
+    <br />
+    <label input asp-for="Message">Message</label>
+    <br />
+    <textarea rows="4" nput asp-for="Message"></textarea>
+    <span asp-validation-for="Message"></span>
+    <br />
+    <input type="submit" value="Send Message" />
+</form>
