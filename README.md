@@ -4,4 +4,4 @@ app.Use -> conteaza ordinea in care le pui
 $ e pt jQuery
 
 am dat instal la dependecies cu nugget packet manager
-adaugat librarii cu add => client side
+adaugat librarii cu add => client side   
